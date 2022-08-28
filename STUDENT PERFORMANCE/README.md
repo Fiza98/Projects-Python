@@ -6,8 +6,10 @@ Their aim is to assess how much does alcohol consumption affect student performa
 in Mathematics.
 
 A) Conduct some simple data exploration and analysis
+
 B) Classification Using Naïve Bayes for: “Age”, “Nursery”, “Dalc”, “Walc”
 to predict whether student wants to take higher education later, “higher”
+
 C) Use Multiple Linear Regression to Predict final grade(G3) based on first(G1)
 and second(G2) grade
 
