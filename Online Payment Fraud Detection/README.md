@@ -21,3 +21,5 @@ oldbalanceDest: initial balance of recipient before the transaction
 newbalanceDest: the new balance of recipient after the transaction
 
 isFraud: fraud transaction
+
+The dataset: credit card.csv
