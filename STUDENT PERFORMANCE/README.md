@@ -14,3 +14,6 @@ C) Use Multiple Linear Regression to Predict final grade(G3) based on first(G1)
 and second(G2) grade
 
 Dataset: student-mat.csv
+
+![std dataset](https://user-images.githubusercontent.com/70303801/187120126-f6e011ff-5472-4673-86a8-12a52db50b60.png)
+
