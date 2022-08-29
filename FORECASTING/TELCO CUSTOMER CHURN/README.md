@@ -1,3 +1,5 @@
+The data set for this classification problem is taken from Kaggle and stems from the IBM sample data set collection (https://www.kaggle.com/blastchar/telco-customer-churn).
+
 Analysis of data columns to identify independent and dependent variables:
 X is the independent variables -  the variables we are using to make predictions
 
