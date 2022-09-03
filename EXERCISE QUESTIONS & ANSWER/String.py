@@ -150,3 +150,81 @@ Razif's student said, "I like this course."
 i) print("%-8.3f" %10. + "\n" + "%-8.3f" %100.)
 10.000
 100.000
+
+
+Exercise 7
+
+Write a python program to do the following:
+1. input a string
+2. count how many words in the given string
+3. calculate the frequency of each word in the string
+
+example:  let say user has input this string or sentence
+     "twinkle twinkle little star"
+
+the output will be:
+    there are 4 words in the sentence
+    frequency of each word:
+       twinkle 2
+       little 1
+       star 1
+
+ANSWER:
+
+METHOD 1
+
+import re
+
+def word_count(str):
+    counts = dict()
+    words = str.split()
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+
+    return counts
+
+#input
+a = input("Please enter the sentence: ")
+#count the words
+count = len(re.findall(r'\w+', a))
+#print how many words in the string
+print ("There are ",count,"words in the sentence")
+#print the frequency of each word
+print( "Frequency of each word: \n", word_count(a))
+
+OUTPUT:
+
+Please enter the sentence: entah la labu
+There are  3 words in the sentence
+Frequency of each word: 
+ {'la': 1, 'labu': 1, 'entah': 1}
+
+
+Exercise 8
+
+Write a python program to do the following:
+1. input a string
+2. reverse the given string
+3. display the reversed string
+
+ANSWER:
+
+#input
+a = input("Please enter the sentence: ")
+
+
+def reverse_slicing(s):
+    return s[::-1]
+
+input_str = a
+
+if __name__ == "__main__":
+    print('Reverse String using slicing =', reverse_slicing(input_str))
+
+OUTPUT:
+Please enter the sentence: afriza
+Reverse String using slicing = azirfa
